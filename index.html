@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KDSC — Kesatuan Data Science Center</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- AOS (Animate on Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <img src="img/KDSC_Logo.png" alt="" style="width: 115px;">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portal">Portal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                    <li class="nav-item ms-lg-3 d-none d-lg-block">
+                        <a class="btn-nav" href="#portal">Open Portal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 text-lg-start text-center" data-aos="fade-right">
+                    <div class="eyebrow">Kesatuan Data Science Center</div>
+                    <h1>Kembangkan karir & kapabilitas <br> di dunia <span style="color:#fff">Data Science</span></h1>
+                    <p class="lead">We deliver professional training and consulting to help individuals, teams, and
+                        organizations harness the full potential of data for faster, smarter decisions.</p>
+                    <div id="typed" aria-live="polite"></div>
+                    <div class="mt-4">
+                        <a href="#services" class="btn-modern me-2">
+                            Explore Services
+                        </a>
+
+                        <a href="#portal" class="btn-modern">
+                            Open Portal
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5 d-none d-lg-block" data-aos="zoom-in">
+                    <img src="img/navgif.gif" alt="data" style="width:100%;border-radius:12px" />
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5">
+        <div class="container" data-aos="fade-up">
+            <div class="row align-items-center gx-5">
+                <div class="col-lg-6">
+                    <img src="img/KDSC.jpg" alt="about" class="img-fluid rounded-4 shadow-sm" />
+                </div>
+                <div class="col-lg-6">
+                    <h2>About KDSC</h2>
+                    <p class="text-muted">At Kesatuan Data Science Center (KDSC), we specialize in building the skills
+                        you need to thrive in the world of data — from data processing and visualization to analytics
+                        and beyond. Our approach is practical and case-based to connect every lesson with real-world
+                        challenges.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fa fa-check-circle text-primary me-2"
+                                style="color:var(--purple)"></i> Hands-on workshops & mentorship</li>
+                        <li class="mb-2"><i class="fa fa-check-circle text-primary me-2"
+                                style="color:var(--purple)"></i> Corporate training & consulting</li>
+                        <li class="mb-2"><i class="fa fa-check-circle text-primary me-2"
+                                style="color:var(--purple)"></i> Skripsi management portal & monitoring</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES (SWIPER) -->
+    <section id="services" class="py-5">
+        <div class="container" data-aos="fade-up">
+            <h3 class="mb-4 text-center fw-bold">Our Services</h3>
+
+            <div class="swiper mySwiperServices">
+                <div class="swiper-wrapper">
+
+                    <!-- Slide -->
+                    <div class="swiper-slide">
+                        <div class="card service-card text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="fa-solid fa-chalkboard-user"></i>
+                            </div>
+                            <h5>Training & Bootcamps</h5>
+                            <p>Intensive, project-based training in Python, ML, visualization, and MLOps.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card service-card text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="fa-solid fa-gears"></i>
+                            </div>
+                            <h5>Consulting</h5>
+                            <p>Help organizations operationalize data strategy and build pipelines.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card service-card text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="fa-solid fa-microscope"></i>
+                            </div>
+                            <h5>Research & Collaboration</h5>
+                            <p>Joint research, hackathons, and industry projects focused on applied AI.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card service-card text-center p-4">
+                            <div class="service-icon mb-3">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <h5>Skripsi Portal</h5>
+                            <p>A management portal to handle thesis proposals, supervision, and monitoring.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PORTAL / DASHBOARD MOCKUP -->
+    <section id="portal" class="py-5">
+        <div class="container" data-aos="fade-up">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                    <div class="dashboard p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                                <h5 class="mb-0">Skripsi Management Dashboard</h5>
+                                <small class="text-muted">Overview — student submissions, supervisor assignments, and
+                                    progress.</small>
+                            </div>
+                            <div>
+                                <button class="btn btn-sm" style="background:var(--purple); color:#fff;">Launch
+                                    Portal</button>
+                            </div>
+                        </div>
+
+                        <div class="row g-3 mb-3">
+                            <div class="col-sm-4">
+                                <div class="metric text-center p-3">
+                                    <small class="text-muted">Total Submissions</small>
+                                    <div class="h4 fw-bold">428</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="metric text-center p-3">
+                                    <small class="text-muted">Active Supervisors</small>
+                                    <div class="h4 fw-bold">34</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="metric text-center p-3">
+                                    <small class="text-muted">On-Track (%)</small>
+                                    <div class="h4 fw-bold">78%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <canvas id="progressChart" height="180"></canvas>
+                            </div>
+                            <div class="col-md-5">
+                                <ul class="list-unstyled">
+                                    <li class="mb-3"><strong>Next Defense</strong><br><small class="text-muted">12 Dec
+                                            2025 — Room B</small></li>
+                                    <li class="mb-3"><strong>Pending Proposals</strong><br><small class="text-muted">34
+                                            proposals need review</small></li>
+                                    <li class="mb-3"><strong>New Messages</strong><br><small class="text-muted">58
+                                            messages in portal inbox</small></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick actions -->
+                <div class="col-lg-5">
+                    <div class="quick-card p-4">
+                        <h6 class="fw-semibold mb-3">Quick Actions</h6>
+
+                        <div class="row g-3">
+
+                            <!-- Action 1 -->
+                            <div class="col-12">
+                                <a href="#" class="quick-action">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-compass"></i>
+                                    </div>
+                                    <div class="text">
+                                        <strong>Pilih Peminatan</strong>
+                                        <small>Tentukan bidang skripsi</small>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-right arrow"></i>
+                                </a>
+                            </div>
+
+                            <!-- Action 2 -->
+                            <div class="col-12">
+                                <a href="#" class="quick-action">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-user-tie"></i>
+                                    </div>
+                                    <div class="text">
+                                        <strong>Pilih Dosen Pembimbing</strong>
+                                        <small>Ajukan & kelola pembimbing</small>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-right arrow"></i>
+                                </a>
+                            </div>
+
+                            <!-- Action 3 -->
+                            <div class="col-12">
+                                <a href="#" class="quick-action">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                                    </div>
+                                    <div class="text">
+                                        <strong>Upload Dokumen</strong>
+                                        <small>Proposal, draft, revisi</small>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-right arrow"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <hr class="my-4">
+
+                        <h6 class="fw-semibold">Recent Activity</h6>
+                        <ul class="activity-list mt-3">
+                            <li>📄 Rizal uploaded draft v2 <span>2 hours ago</span></li>
+                            <li>👤 Supervisor A assigned to 3 students <span>1 day ago</span></li>
+                            <li>💬 New message from Admin <span>3 days ago</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="py-5 bg-white">
+        <div class="container" data-aos="fade-up">
+            <h3 class="mb-4 text-center">Team</h3>
+
+            <div class="row justify-content-center g-4">
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="team-card text-center">
+                        <img class="team-photo mb-3" src="img/Dennis.jpg" />
+                        <h6 class="team-name">Pingky Dezar Zulkarnain</h6>
+                        <div class="team-role">Head of Data Science</div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="team-card text-center">
+                        <img class="team-photo mb-3" src="img/Dennis.jpg" />
+                        <h6 class="team-name">Yanto Hermawan</h6>
+                        <div class="team-role">Lead Data Engineer</div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="team-card text-center">
+                        <img class="team-photo mb-3" src="img/Dennis.jpg" />
+                        <h6 class="team-name">Dennis</h6>
+                        <div class="team-role">Machine Learning Specialist</div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="team-card text-center">
+                        <img class="team-photo mb-3" src="img/Dennis.jpg" />
+                        <h6 class="team-name">Anisah Amelia Putry</h6>
+                        <div class="team-role">Researcher</div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="team-card text-center">
+                        <img class="team-photo mb-3" src="img/Dennis.jpg" />
+                        <h6 class="team-name">Hadyaddien Sabila</h6>
+                        <div class="team-role">Instructor</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container" data-aos="fade-up">
+            <h3 class="mb-4 text-center fw-bold">Portfolio</h3>
+            <p class="text-center text-muted mb-5">
+                Beberapa produk dan program unggulan KDSC dalam bidang data science dan artificial intelligence.
+            </p>
+
+            <!-- FILTER -->
+            <!-- Portfolio Filter Tabs -->
+            <div class="portfolio-filter text-center mb-5">
+                <span class="filter-tab active" data-filter="all">All</span>
+                <span class="filter-tab" data-filter="project">Project</span>
+                <span class="filter-tab" data-filter="workshop">Workshop</span>
+                <span class="filter-tab" data-filter="bootcamp">Bootcamp</span>
+            </div>
+
+
+            <div class="row g-4 justify-content-center">
+
+                <!-- PROJECT : INSAN -->
+                <div class="col-md-6 portfolio-item project">
+                    <div class="portfolio-card h-100">
+                        <img src="img/dashboard.jpeg" class="portfolio-img" alt="INSAN Dashboard">
+
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">INSAN</h5>
+                            <p class="portfolio-desc">
+                                INSAN merupakan dashboard data science untuk analisis clustering, regression,
+                                serta AI-assisted insight guna mendukung pengambilan keputusan berbasis data.
+                            </p>
+
+                            <ul class="portfolio-features">
+                                <li>Clustering & Regression Analysis</li>
+                                <li>Dashboard Interaktif</li>
+                                <li>AI-assisted Data Insight</li>
+                                <li>Visualisasi Data</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BOOTCAMP -->
+                <div class="col-md-6 portfolio-item bootcamp">
+                    <div class="portfolio-card h-100">
+                        <img src="img/Bootcamp.jpeg" class="portfolio-img" alt="Bootcamp Data Science">
+
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">Data Science Bootcamp</h5>
+                            <p class="portfolio-desc">
+                                Program intensif untuk meningkatkan kompetensi data science dari fundamental
+                                hingga advanced melalui project berbasis studi kasus nyata.
+                            </p>
+
+                            <ul class="portfolio-features">
+                                <li>Fundamental hingga Advanced</li>
+                                <li>Project-Based Learning</li>
+                                <li>Mentoring Praktisi</li>
+                                <li>Sertifikat & Evaluasi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WORKSHOP -->
+                <div class="col-md-6 portfolio-item workshop">
+                    <div class="portfolio-card h-100 workshop-card">
+                        <img src="img/Bootcamp.jpeg" class="portfolio-img" alt="Workshop Data Analysis">
+
+                        <div class="portfolio-content">
+                            <h5 class="portfolio-title">Data Analysis Workshop</h5>
+                            <p class="portfolio-desc">
+                                Workshop analisis data menggunakan berbagai software analitik
+                                dengan pendekatan hands-on dan studi kasus nyata.
+                            </p>
+
+                            <ul class="portfolio-features">
+                                <li>Hands-on Data Analysis</li>
+                                <li>Software-Based Learning</li>
+                                <li>Studi Kasus Nyata</li>
+                                <li>Dipandu oleh Praktisi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-5 contact-section">
+        <div class="container" data-aos="fade-up">
+            <div class="text-center mb-5">
+                <h3 class="fw-bold">Contact Us</h3>
+                <p class="text-muted">
+                    Hubungi kami untuk kolaborasi, pelatihan, atau solusi data & artificial intelligence
+                </p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <!-- CONTACT INFO -->
+                <div class="col-md-5">
+                    <div class="contact-card h-100">
+                        <h5 class="mb-4 fw-semibold">Get in Touch</h5>
+
+                        <div class="contact-item">
+                            <i class="fa fa-envelope"></i>
+                            <div>
+                                <small>Email</small>
+                                <p>kdsc.325@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <div>
+                                <small>Linkedln</small>
+                                <p>Kesatuan Data Science Center</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fa fa-map-marker"></i>
+                            <div>
+                                <small>Office Location</small>
+                                <p>IBI Kesatuan Bogor</p>
+                            </div>
+                        </div>
+
+                        <div class="mt-4 d-flex gap-2 flex-wrap">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kdsc.325@gmail.com" target="_blank"
+                                class="btn contact-btn">
+                                <i class="fa-solid fa-envelope me-2"></i>Email Us
+                            </a>
+
+                            <a href="tel:+6281234567890" class="btn btn-outline-secondary rounded-pill">
+                                <i class="fa fa-phone me-2"></i>Call
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MAP & FORM -->
+                <div class="col-md-7">
+                    <div class="contact-card map-card h-100 p-0">
+                        <iframe
+                            src="https://www.google.com/maps?q=IBI+Kesatuan+-6.605866940085171,106.79944440468145&hl=id&z=16&output=embed"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-md-start mb-3 mb-md-0">
+                    <strong>KDSC</strong> — Kesatuan Data Science Center<br />
+                    &copy; <span id="year"></span> KDSC. All rights reserved.
+                </div>
+
+                <div class="col-md-6 text-md-end footer-social">
+                    <span class="me-2">Follow us:</span>
+
+                    <a href="https://www.instagram.com/kesatuandatasciencecenter/" target="_blank"
+                        aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/kesatuan-data-science-center/" target="_blank"
+                        aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JS: Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <script>
+
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.navbar');
+            if (window.scrollY > 40) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Set year in footer
+        document.getElementById('year').innerText = new Date().getFullYear();
+
+        // Initialize AOS
+        AOS.init({ duration: 900, once: true });
+
+        // Typed.js for hero dynamic text
+        new Typed('#typed', {
+            strings: [
+                'Data Processing • Visualization • Analytics',
+                'Practical, hands-on training for students & professionals',
+                'Skripsi management, progress monitoring, and supervision'
+            ],
+            typeSpeed: 40,
+            backSpeed: 28,
+            backDelay: 2000,
+            loop: true
+        });
+
+        // Init Swiper for services
+        document.addEventListener('DOMContentLoaded', function () {
+            new Swiper('.mySwiperServices', {
+                initialSlide: 1,   // ✅ mulai dari slide ke-2
+
+                slidesPerView: 1,
+                spaceBetween: 30,
+                centeredSlides: true,
+
+                loop: false,
+                rewind: true,
+                speed: 700,
+
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+
+                breakpoints: {
+                    768: { slidesPerView: 2 },
+                    992: { slidesPerView: 3 }
+                }
+            });
+        });
+
+
+
+        // Team swiper
+        const teamSwiper = new Swiper('.teamSwiper', {
+            slidesPerView: 2,
+            spaceBetween: 18,
+            loop: true,
+            pagination: { el: '.teamSwiper .swiper-pagination', clickable: true },
+            breakpoints: {
+                576: { slidesPerView: 3 },
+                992: { slidesPerView: 5 }
+            }
+        });
+
+        // Chart.js — progress chart
+        const ctx = document.getElementById('progressChart').getContext('2d');
+        const gradient = ctx.createLinearGradient(0, 0, 0, 200);
+        gradient.addColorStop(0, 'rgba(106,13,173,0.6)');
+        gradient.addColorStop(1, 'rgba(215,163,255,0.08)');
+
+        const progressChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+                datasets: [{
+                    label: 'On-Track %',
+                    data: [62, 65, 68, 72, 70, 75, 77, 78, 80],
+                    fill: true,
+                    backgroundColor: gradient,
+                    borderColor: '#6a0dad',
+                    tension: 0.35,
+                    pointRadius: 3
+                }]
+            },
+            options: {
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100,
+                        ticks: { callback: (v) => v + '%' }
+                    }
+                },
+                maintainAspectRatio: false
+            }
+        });
+
+        // Small helper: smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', function (e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    // collapse nav on mobile
+                    const nav = document.querySelector('.navbar-collapse');
+                    if (nav && nav.classList.contains('show')) {
+                        new bootstrap.Collapse(nav).toggle();
+                    }
+                }
+            });
+        });
+
+        const filterTabs = document.querySelectorAll('.filter-tab');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+
+                // active tab
+                filterTabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+
+                const filter = tab.getAttribute('data-filter');
+
+                portfolioItems.forEach(item => {
+                    if (filter === 'all' || item.classList.contains(filter)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
