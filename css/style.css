@@ -302,6 +302,10 @@
         }
     }
 
+    .mySwiperServices {
+        padding-bottom: 40px;
+    }
+
 
     .card-ghost {
         background: rgba(255, 255, 255, 0.096);
@@ -813,6 +817,10 @@
             flex-wrap: wrap;
             gap: 16px;
         }
+
+        .mySwiperServices .swiper-pagination {
+        bottom: -5px;
+    }
 
         #about {
             padding-left: 0;
