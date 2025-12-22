@@ -105,7 +105,6 @@
 
     section {
         scroll-margin-top: 60px;
-        /* sesuaikan dengan tinggi navbar kamu */
     }
 
     li{
@@ -143,7 +142,6 @@
         transform: scale(0.9);
         opacity: 0.6;
         transition: all 0.4s ease;
-        bottom: 50px;
     }
 
     .swiper-slide-active {
@@ -172,7 +170,7 @@
     .btn-modern {
         background: linear-gradient(135deg, #c77dff, #9d4edd);
         color: #fff !important;
-        padding: 12px 32px;
+        padding: 12px 20px;
         border-radius: 50px;
         font-weight: 600;
         font-size: 1rem;
@@ -561,10 +559,6 @@
         min-height: 100%;
         border: 0;
     }
-
-
-
-
 
     /* PORTAL / DASHBOARD */
     .dashboard {
