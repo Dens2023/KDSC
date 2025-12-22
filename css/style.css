@@ -819,8 +819,9 @@
         }
 
         .mySwiperServices .swiper-pagination {
-        bottom: -5px;
-    }
+            position: relative;
+            margin-top: 16px;
+        }
 
         #about {
             padding-left: 0;
@@ -852,3 +853,4 @@
             padding: 10px 0 !important;
         }
     }
+
